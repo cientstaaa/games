@@ -1,0 +1,56 @@
+<!-- linguagem e lingua usada-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- parte nao visivel-->
+<head>
+
+    <!-- codificacao-->
+    <meta charset="UTF-8">
+
+    <!-- coisas do HTML-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--chama os estilos que estao no css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- o que vai aparecer no titulo da pagina-->
+    <title>Games</title>
+
+</head>
+
+ <!-- parte visivel da pagina -->
+ <body>
+
+    <!-- cabecalho-->
+    <header>
+         <h1>Jogos Retrô</h1>
+    </header>
+
+    <!-- parte central do código-->
+    <main>
+
+        <!-- sessoes( caixa de texto, botao pesquisar e resultados)-->
+        <section>
+            <input type="text" placeholder="digite o Game EX: Mario" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa"
+            id="resultados-pesquisa">
+        </section>
+    </main>
+
+    <!-- rodape da pagina-->
+    <footer>
+        <p>2024 - jogos retrô. todos os direitos reservados</p>
+        <p>entre em contato por: @cientista_game_dev</p>
+    </footer>
+
+    <!-- linka o codigo HTML ao JavaScript-->
+    <script src="games.js"></script>
+
+    <!-- linka o codigo HTML ao JavaScript-->
+    <script src="app.js"></script>
+ </body>
+
+</html>
