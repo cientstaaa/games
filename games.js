@@ -3,7 +3,7 @@ let games = [
         titulo : "Super Mario Bros",
         descricao : " super mario bros.: Uma Jornada Clássica Super Mario Bros. é um marco nos jogos eletrônicos, lançado originalmente para o Nintendo Entertainment System (NES).",
         link :"https://pt.wikipedia.org/wiki/Super_Mario_Bros.",
-        tags : "mario plataforma nes"
+        tags : "mário plataforma nes"
     },
     {
         titulo : "Pokemon Fire Red",
