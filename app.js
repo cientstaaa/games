@@ -18,6 +18,7 @@ function pesquisar() {
     let titulo = "";
     let descricao = "";
     let tags  = "";
+   
   
     // Itera sobre cada jogo na lista de jogos.
     for (let game of games) {
@@ -26,6 +27,7 @@ function pesquisar() {
       titulo = game.titulo.toLowerCase()
       descricao = game.descricao.toLowerCase()
       tags = game.tags.toLowerCase()
+      
 
       // se titulo includes campoPesquisa
       if(
@@ -46,6 +48,11 @@ function pesquisar() {
           <a href="${game.link}" target="_blank">
             Veja mais sobre o jogo pesquisado.
           </a>
+          <p>
+           <a href="${game.dowload}" target="_blank">
+            baixe o jogo pesquisado.
+          </a>
+          </p>
         </div>
       `;
       }
